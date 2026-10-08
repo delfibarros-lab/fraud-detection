@@ -1,0 +1,20 @@
+{
+  "fraud_rate_test": 0.01426,
+  "models": {
+    "Regresión logística": {
+      "pr_auc": 0.1545,
+      "roc_auc": 0.8208
+    },
+    "Gradient Boosting": {
+      "pr_auc": 0.1617,
+      "roc_auc": 0.8208
+    }
+  },
+  "champion": "Gradient Boosting",
+  "threshold": 0.04,
+  "precision": 0.102,
+  "recall": 0.442,
+  "cost_without_model": 65253.22,
+  "cost_with_model": 43566.21,
+  "savings_pct": 33.2
+}
